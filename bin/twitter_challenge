@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require 'twitter_challenge'
+
+if ARGV.length == 0
+    puts "Usage: twitter_challenge <user_name>"
+    exit
+end
+
+printer = TwitterChallenge::Square.new
+words = printer.get_words_by_frequency(ARGV[0])
+
+words.each do |word|
+  puts "#{word[:word]}, #{word[:freq]}"
+end
