@@ -6,7 +6,7 @@ Tests locate in spec/
 
 Run the rspec tests for the gem:
 
-    $ rspec spec/
+    $ rspec spec/twitter_challenge_spec.rb
 
 Example is in bin/
 
