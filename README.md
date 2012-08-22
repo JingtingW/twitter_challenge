@@ -12,6 +12,10 @@ Example is in bin/
 
 
 ## Installation
+Clone the code:
+
+    $ git clone https://github.com/JingtingW/twitter_challenge.git
+
 Build the gem:
 
     $ gem build twitter_challenge.gemspec
